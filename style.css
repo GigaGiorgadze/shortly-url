@@ -1,0 +1,21 @@
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+header{
+    background-image: url('images/illustration-working.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.search{
+    background-image: url('images/bg-shorten-desktop.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+.boost{
+    background-image: url('images/bg-boost-desktop.svg');
+    background-position: center;
+    background-size: cover;
+}
