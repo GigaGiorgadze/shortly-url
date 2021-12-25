@@ -19,3 +19,11 @@ header{
     background-position: center;
     background-size: cover;
 }
+
+@media screen and (max-width: 800px) {
+    header{
+        background-repeat: no-repeat;
+        background-position-x: 5vw;
+        background-size: 110vw;
+    }
+}
