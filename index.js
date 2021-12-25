@@ -29,11 +29,11 @@ function search(e) {
 function showLinks(response) {
     const parentDiv = document.querySelector('.responses')
     const temp = `
-        <div class="bg-white items-center w-full rounded-lg my-4 flex justify-between p-4">
-            <span class="max-w-2/4 flex-1">${response.original_link}</span>
-            <div>
+        <div class="bg-white items-center md:text-left text-center w-full rounded-lg my-4 flex md:flex-row flex-col justify-between p-4">
+            <span class="w-full md:max-w-2/4 flex-1">${response.original_link}</span>
+            <div class="flex md:block flex-col w-full">
                 <span class="text-cyan-500 mr-4">${response.full_short_link}</span>
-                <button onClick='copy(event)' class="bg-cyan-500 text-white px-6 py-2 rounded-lg">Copy</button>
+                <button onClick='copy(event)' class="bg-cyan-500 text-white md:w-max w-full px-6 py-2 rounded-lg">Copy</button>
             </div>
         </div>
     `
